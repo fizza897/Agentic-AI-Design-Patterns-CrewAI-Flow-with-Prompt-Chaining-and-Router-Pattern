@@ -1,0 +1,20 @@
+[project]
+name = "pr7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "fizza897", email = "fizzaazam6@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.100.1",
+]
+
+[project.scripts]
+pr7 = "pr7:main"
+piaic="pr7.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
