@@ -13,7 +13,8 @@ dependencies = [
 
 [project.scripts]
 pr7 = "pr7:main"
-piaic="pr7.main:kickoff"
+simpleflow="pr7.main:kickoff"
+chain_prompt="pr7.main2:kickoff"
 
 [build-system]
 requires = ["hatchling"]
